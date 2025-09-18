@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         int programmersCount = 7;
         int totalFood = 1_000_000;
-        int waitersCount = 6;
+        int waitersCount = 2;
 
         try {
             if (args.length >= 1) programmersCount = Integer.parseInt(args[0]);
